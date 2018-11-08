@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>getappproperty</internal_name>
+        <label_cache>[{"name":"{{action.no_of_days}}","label":"action➛no_of_days","type":"action","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].o}}","label":"step➛Script step➛o","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].ov}}","label":"step➛Script step➛ov","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].ove}}","label":"step➛Script step➛ove","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].over}}","label":"step➛Script step➛over","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overd}}","label":"step➛Script step➛overd","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdu}}","label":"step➛Script step➛overdu","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue}}","label":"step➛Script step➛overdue","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue_}}","label":"step➛Script step➛overdue_","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue_d}}","label":"step➛Script step➛overdue_d","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue_da}}","label":"step➛Script step➛overdue_da","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue_day}}","label":"step➛Script step➛overdue_day","type":"step","ref":""},{"name":"{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue_days}}","label":"step➛Script step➛overdue_days","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>GetAppProperty</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="GetAppProperty">726f7c9fdbe12300da18bd51399619f8</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-08 15:09:38</sys_created_on>
+        <sys_id>a7dfb013db252300da18bd51399619d3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>GetAppProperty</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_a7dfb013db252300da18bd51399619d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-08 15:09:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7dfb013db252300da18bd51399619d3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=a7dfb013db252300da18bd51399619d3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>a7dfb013db252300da18bd51399619d3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-08 15:09:39</sys_created_on>
+        <sys_id>33dff013db252300da18bd5139961917</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-08 15:09:39</sys_updated_on>
+        <value/>
+        <variable display_value="">bfdff013db252300da18bd513996190e</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a7dfb013db252300da18bd51399619d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>days</field>
+        <id>a7dfb013db252300da18bd51399619d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-08 15:09:39</sys_created_on>
+        <sys_id>bfdff013db252300da18bd5139961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-08 15:09:39</sys_updated_on>
+        <table>var__m_sys_hub_action_output_a7dfb013db252300da18bd51399619d3</table>
+        <value>{{step[9ea673e4-3aaa-4b88-a674-81b079342332].overdue_days}}</value>
+    </sys_element_mapping>
+</record_update>
